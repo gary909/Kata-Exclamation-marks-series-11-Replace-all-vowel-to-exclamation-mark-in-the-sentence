@@ -1,5 +1,4 @@
 function replace(s) {
-    //coding and coding....
     let splitString = s.split("");
     let newArr = [];
     for (let i = 0; i < s.length; i++) {
@@ -11,6 +10,8 @@ function replace(s) {
     }
     return newArr.join("");
 }
+
+// Next time just use .replace!
 
 console.log(replace("Hi!")); // H!!
 console.log(replace("!Hi! Hi!")); // !H!! H!!
